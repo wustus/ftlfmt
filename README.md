@@ -22,7 +22,11 @@ usage: ftlfmt [options] <string>
 ### Basic Usage
 To format a given string you can pass it directly.
 ```bash
-ftlfmt "<root><foo><bar/></foo></root>"
+ftlfmt "<root>
+<foo>
+<bar/>
+</foo>
+</root>"
 ```
 Output:
 ```xml
